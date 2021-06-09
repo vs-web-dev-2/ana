@@ -59,4 +59,11 @@ etiqueta = "horas : " + 12 + 12;
 //coparaciones
 //> < >= <= == !=
 
+//aceptaciones del JS por las comillas
+console.log(1+1);
+console.log("1" + "1");
+console.log("1" +1);
+console.log(1 + "1");
+console.log("1" * "1");
+
 
