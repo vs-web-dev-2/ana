@@ -1,6 +1,6 @@
 # Ana Uribe
 
-##Conocimientos
+## Conocimientos
 
 - Programo en **JavaScrip**
 
