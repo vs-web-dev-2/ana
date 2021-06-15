@@ -1,5 +1,9 @@
 # Ana Uribe
 
-Programo en JavaScrip
+##Conocimientos
 
-Vivo en Madrid
+- Programo en **JavaScrip**
+
+## Datos personales
+
+- Vivo en _Madrid_
