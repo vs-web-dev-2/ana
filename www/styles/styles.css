@@ -6,3 +6,10 @@ h1 {
   a {
     color: green;
   }
+
+  main h1{
+    background-color: darkblue;
+  }
+  .verde {
+    color: green;
+  }

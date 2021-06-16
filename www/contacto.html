@@ -2,12 +2,13 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Formulario de contacto</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="mis datos de contacto">
-    <meta name="keywords" content="curso para softtek frontend">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <meta name="description" content="mis datos de contacto" />
+    <meta name="keywords" content="curso, softtek, vector, contacto" />
+    <!-- <link rel="stylesheet" href="./styles/styles.css"> -->
+    <link rel="stylesheet" href="./styles/milligram.css">
 </head>
 
 <body>
@@ -20,26 +21,25 @@
         </nav>
     </header>
     <main>
-        <form action="un/enpoint/que-no.existe" method="POST">
-            <fildset>
+        <form action="un/endpoint/que-no-existe/" method="POST">
+            <fieldset>
                 <label for="nombre">Tu nombre:</label>
                 <input name="nombre" id="nombre">
                 <label for="empresa">Tu empresa:</label>
                 <input name="empresa" id="empresa">
                 <label for="oferta">Tu oferta:</label>
                 <input name="oferta" id="oferta" type="number">
-                <label for="inicio">Fechas incorporacion:</label>
+                <label for="inicio">Fecha Incorporación:</label>
                 <input name="inicio" id="inicio" type="date">
                 <label for="remoto">Permite en remoto:</label>
-                <input name="inicio" id="remoto" type="checKbox">
-            </fildset>
-            <button>Enviar</button>
+                <input name="remoto" id="remoto" type="checkbox">
+            </fieldset>
+            <button class="azul activado">Enviar</button>
         </form>
     </main>
     <footer>
-        <p>Para Softtek y Vector por Ana Uribe</p>
+        <p>Para Softtek y Vector por Ana Uribe </p>
     </footer>
-
 </body>
 
 </html>
